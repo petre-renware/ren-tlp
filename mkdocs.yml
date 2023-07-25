@@ -1,38 +1,14 @@
-site_name: SDEVEN Software Development & Engineering Methodology
+site_name: Learning @ RENware Software Systems
 site_author: 'Petre Iordanescu, RENware Software Systems'
 copyright: 'Copyright (c) RENware Software Systems'
 
 
 nav:
     - Home: 'index.md'
-    - Methodology index: 'SDEVEN.00_INDEX.md'
-    - Methodology procedures:
-        - Administrative (10-ADM): 'SDEVEN.10_ADM.md'
-        - Practices (20-RENPRA): 'SDEVEN.20_RENPRA.md'
-        - Versioning (30-RENVER): SDEVEN.30_RENVER.md
-        - Branches (40-BRAN): 'SDEVEN.40_BRAN.md'
-        - Operational Meetings(45-OPME) ...incoming...: 'SDEVEN.45_OPME.md' #FIXME update "incoming..." text `RMAP.001 - OPME` implementation
-        - Change Management (50-CHGMNG): 'SDEVEN.50_CHGMNG.md'
-        - Development and changes logging (55-TRACE): 'SDEVEN.55_TRACE.md'
-        - Release management (60-RELM): 'SDEVEN.60_RELM.md'
-        - Project structure (62-PSTR): 'SDEVEN.62_PSTR.md'
-        - Design approaches and their review and change (65-DEREV): 'SDEVEN.65_DEREV.md'
-        - Code review (68-COREV): 'SDEVEN.68_COREV.md'
-        - Licenses & products / models (70-LIP): 'SDEVEN.70_LIP.md'
-        - Code of Conduct. Ethics, Professional and Legal Issues (75-CCEP): 'SDEVEN.75_CCEP.md'
-        - Conventions & principles (80-COPRI): 'SDEVEN.80_COPRI.md'
-        - Phases, Processes and Deliverables (#FIXME-code-here): 'SDEVEN.90_RENBLU.md'
-        - Confidentiality & Classification (#FIXME-code-here): 'SDEVEN.95_RENCOCL.md'
-    - Methodology appendices:
-        - Appendix (A) Sematic Versioning (SEMVER): 'Appendix_A_Semantic_versioning.md'
-        - Appendix (B) System Design Document Template (810 DSGN): 'Appendix_B_DSGN_Content_Index.md'
-        - Appendix (C) Status Report Template (STATUSR): 'Appendix_C_Status_Report.md'
-        - Appendix (D) ROADMAP Template (RMAP): 'Appendix_D_ROADMAP_template.md'
-        - Appendix (Q) FAQ. Frequently Asked Questions (FAQ): 'Appendix_Q_faq.md'
-    - About SDEVEN: 'About_SDEVEN.md'
-    - License: 'LICENSE.md'
-    - RENware Software Systems company: 'http://renware.eu'
-    - Full SDEVEN Manual (PDF): 'pdfs/print_page.html/print_page.pdf'
+    #FIXME_chk - About SDEVEN: 'About_SDEVEN.md'
+    #FIXME_chk - License: 'LICENSE.md'
+    #FIXME_chk - RENware Software Systems company: 'http://renware.eu'
+    #FIXME_chk - Full SDEVEN Manual (PDF): 'pdfs/print_page.html/print_page.pdf'
 
 
 
@@ -68,11 +44,11 @@ plugins:
     - search
     - include-markdown
     # - pdf-export # this version does not render mermaid in PDF docs
-    - print-site: #NOTE: put print-site to the bottom of the plugins that may might alter your site navigation (affect order of sections in generated HTML)
-        add_to_navigation: true
-        print_page_title: 'Full SDEVEN Manual'
-        add_full_urls: true
-        add_table_of_contents: true
+    #FIXME_check_if_needed - print-site: #NOTE: put print-site to the bottom of the plugins that may might alter your site navigation (affect order of sections in generated HTML)
+        #FIXME_check_if_needed add_to_navigation: true
+        #FIXME_check_if_needed print_page_title: 'Full ArtK Manual'
+        #FIXME_check_if_needed add_full_urls: true
+        #FIXME_check_if_needed add_table_of_contents: true
     - pdf-with-js:
         enable: true
 
@@ -80,7 +56,7 @@ plugins:
 
 #NOTE provide material theme
 theme:
-    logo: pictures/SDEVEN_logo.png #NOTE_REN_picture pictures/REN_stamp_logo_transparent.png
+    logo: pictures/SDEVEN_logo.png ##FIXME set right learning @ renware logo
     name: material
     features:
         # - navigation.tabs # left navigation side bar, all level 1 will be shown as top navigation bar
@@ -88,7 +64,7 @@ theme:
         - navigation.tabs.sticky
         - navigation.path
     palette:
-        primary: teal # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/ for other color options
+        primary: deep purple # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/ for other color options
     icon:
         admonition:
             note: fontawesome/solid/note-sticky
