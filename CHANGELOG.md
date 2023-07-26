@@ -34,6 +34,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * wip...
 
+* 230726piu_d created and uploaded in `doc_src/pictures/`  REN-learn logo (source `fodg` & `png` types)
 * 230726piu_c get from TLP project pictures with `confused1.gif` & `notebook.jpg` and uploaded in `doc_src/pictures/`
 * 230726piu_b updated master index and structure (mkdocs.yml)
 * 230726piu_a updated and improved master index page to show what is happening in this platform by categories: articles, books, courses, etc...
