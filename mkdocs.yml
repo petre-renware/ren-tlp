@@ -6,7 +6,8 @@ copyright: 'Copyright (c) RENware Software Systems'
 nav:
     - Home: 'index.md'
     #FIXME_chk - About SDEVEN: 'About_SDEVEN.md'
-    #FIXME_chk - License: 'LICENSE.md'
+    - Platform License: '../LICENSE'
+    - Materials License: 'LICENSE_CCO.md'
     - RENware Software Systems: 'http://www.renware.eu'
     #FIXME_chk - Full SDEVEN Manual (PDF): 'pdfs/print_page.html/print_page.pdf'
 
