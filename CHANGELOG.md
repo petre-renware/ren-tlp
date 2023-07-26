@@ -21,6 +21,14 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 ## 2.0 ArtK new re-branded portal @ `learning.renware.eu`
 
+-#TODO---------------------[START]--- short action plan
+* tbd... get from TLP project the pictire with *"computer like a book"* which is ideal for home page ....
+
+-#TODO---------------------[END]--- short action plan
+
+
+
+
 
 ### 2.0.1-beta re-constructed old portal on new structure (#FIXME_wip...)
 
