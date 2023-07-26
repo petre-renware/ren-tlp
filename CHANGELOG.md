@@ -35,6 +35,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * wip...
 
+* 230726piu_b updated master index and structure (mkdocs.yml)
 * 230726piu_a updated and improved master index page to show what is happening in this platform by categories: articles, books, courses, etc...
 * 230725piu_b initializing `mkdocs` generator
     * adjust `mkdocs.yml` for a fresh start (it was imported from SDEVEN)
