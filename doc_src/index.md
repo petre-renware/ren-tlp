@@ -1,7 +1,8 @@
 
-# Master "Learning @ RENware" platform
+# "Learning @ RENware" catalog
 
-Welcome to **Learning @ RENware** platform. This platform is a **knowledge base** and a **digital library**.
+Welcome to **Learning @ RENware** platform. This platform is a **knowledge base** and a **digital library** for all people that want to self study and expanding their knowledge by studying more practical things.
+
 
 Here you'll find resources to "self-learn" as:
 
