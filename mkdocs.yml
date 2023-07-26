@@ -7,7 +7,7 @@ nav:
     - Home: 'index.md'
     #FIXME_chk - About SDEVEN: 'About_SDEVEN.md'
     #FIXME_chk - License: 'LICENSE.md'
-    #FIXME_chk - RENware Software Systems company: 'http://renware.eu'
+    - RENware Software Systems: 'http://www.renware.eu'
     #FIXME_chk - Full SDEVEN Manual (PDF): 'pdfs/print_page.html/print_page.pdf'
 
 
@@ -61,10 +61,12 @@ theme:
     logo: pictures/SDEVEN_logo.png ##FIXME set right learning @ renware logo
     name: material
     features:
-        # - navigation.tabs # left navigation side bar, all level 1 will be shown as top navigation bar
+        - navigation.tabs #NOTE level 2 on left navigation side bar, level 1 on top navigation bar
         - navigation.tracking
         - navigation.tabs.sticky
         - navigation.path
+        - toc.integrate #NOTE integrate TOC in left navbar
+        #- navigation.footer #NOTE do not enable this. It will show "Next & Prev" links on footer, useless for this portal...
     palette:
         primary: deep purple # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/ for other color options
     icon:
