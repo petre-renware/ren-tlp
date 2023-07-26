@@ -22,7 +22,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 ## 2.0 ArtK new re-branded portal @ `learning.renware.eu`
 
 -#TODO---------------------[START]--- short action plan
-* tbd... get from TLP project the pictire with *"computer like a book"* which is ideal for home page ....
+* tbd... NOTHING NOW
 
 -#TODO---------------------[END]--- short action plan
 
@@ -32,9 +32,9 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 ### 2.0.1-beta re-constructed old portal on new structure (#FIXME_wip...)
 
-
 * wip...
 
+* 230726piu_c get from TLP project pictures with `confused1.gif` & `notebook.jpg` and uploaded in `doc_src/pictures/`
 * 230726piu_b updated master index and structure (mkdocs.yml)
 * 230726piu_a updated and improved master index page to show what is happening in this platform by categories: articles, books, courses, etc...
 * 230725piu_b initializing `mkdocs` generator
