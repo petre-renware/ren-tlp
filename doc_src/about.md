@@ -25,7 +25,7 @@ sections for
 
 This project is a RENware Software Systems company copyright under this license:
 
-{ include ../LICENSE }
+{% include ../LICENSE %}
 
 -#TODO chk me after render ...
 
