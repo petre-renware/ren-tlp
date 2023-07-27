@@ -13,4 +13,23 @@ sections for
 * REN-TLP product license 
 -->
 
+## The "Learning @RENware" project
+
+-#TODO ...
+
+## Projrct team
+
+-#TODO ...
+
+## License
+
+This project is a RENware Software Systems company copyright under this license:
+
+{ include ../LICENSE }
+
+-#TODO chk me after render ...
+
+
+
+
 
