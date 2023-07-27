@@ -27,8 +27,13 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 -#TODO---------------------[START]--- short action plan
 
+* tbd... use Jinja data loaded in Markdown to show different info ref any learning item - following things could help:
+   * use JS inside Markdown file (if ok, retain as separated file in SCTRATH area to replicate in `RENpo`)
+   * just use as simple Jinja variables adn multiply it with constructs like `{% for ... %}`
+* tbd... get JSON article data and load it as Jinja info that can be used in Markdown files
 * tbd... `about.md` page - section for who we are, project, team? and REN-TLP product license
 * tbd... continue "Learning Catalog" (`learning_catalog.md`) page
+* tbd... put `[TOC]` on Learning Catalog page
 
 -#TODO---------------------[END]--- short action plan
 
