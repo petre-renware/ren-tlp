@@ -8,7 +8,7 @@ nav:
     - Learning catalog: 'learning_catalog.md'
     - About platform: 'about.md'
     - RENware Software Systems: 'http://www.renware.eu'
-    #FIXME_chk_ok_if_only_cource_catalog_? - Full TLP Manual (PDF): 'pdfs/print_page.html/print_page.pdf'
+    #- Full TLP Manual (PDF): 'pdfs/print_page.html/print_page.pdf' #NOTE_no_print_site_in_REN-tlp
 
 
 
@@ -45,12 +45,12 @@ extra_javascript:
 plugins:
     - search
     - include-markdown
-    # - pdf-export # this version does not render mermaid in PDF docs
-    #FIXME_check_if_needed - print-site: #NOTE: put print-site to the bottom of the plugins that may might alter your site navigation (affect order of sections in generated HTML)
-        #FIXME_check_if_needed add_to_navigation: true
-        #FIXME_check_if_needed print_page_title: 'Full ArtK Manual'
-        #FIXME_check_if_needed add_full_urls: true
-        #FIXME_check_if_needed add_table_of_contents: true
+    #- pdf-export #NOTE this version does not render mermaid in PDF docs
+    #- print-site: # NO PRINT SITE in `REN-tlp` #NOTE_no_print_site_in_REN-tlp
+        #add_to_navigation: true #NOTE_no_print_site_in_REN-tlp
+        #print_page_title: 'Full ArtK Manual' #NOTE_no_print_site_in_REN-tlp
+        #add_full_urls: true #NOTE_no_print_site_in_REN-tlp
+        #add_table_of_contents: true #NOTE_no_print_site_in_REN-tlp
     - pdf-with-js:
         enable: true
 

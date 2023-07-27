@@ -33,11 +33,17 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 * tbd... get JSON article data and load it as Jinja info that can be used in Markdown files
 * tbd... `about.md` page - section for who we are, project, team? and REN-TLP product license
 * tbd... continue "Learning Catalog" (`learning_catalog.md`) page
-* tbd... put `[TOC]` on Learning Catalog page
+* tbd... add [`mkdocs-git-revision-date-localized-plugin`](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
 
 -#TODO---------------------[END]--- short action plan
 
 * wip...
+
+* 230727piu_a put `[TOC]` on Learning Catalog page
+
+
+
+
 
 
 
