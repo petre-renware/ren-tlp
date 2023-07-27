@@ -31,7 +31,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
    * [ ] use JS inside Markdown file (if ok, retain as separated file in SCRATCH area to replicate in `RENpo`)
    * [ ] just use as simple Jinja variables and multiply it with constructs like `{% for ... %}`
 
-* tbd... 
+* tbd... finalize `about.md` page  
 
 * tbd... continue "Learning Catalog" (`learning_catalog.md`) page
 
@@ -40,7 +40,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * wip...
 
-* wip... 230727piu_d made `about.md` page - sections for who we are, project, team, ... and REN-TLP product license 
+* 230727piu_d made first draft of `about.md` page - sections for who we are, project, team, ... and REN-TLP product license 
 * 230727piu_c new directory `doc_src/data/` with JSON article data ref _`articles_register.json`_ and _`mb-apm-data/unit_01.json`_
 * 230727piu_b plugin that enables displaying the date of the last git modification of a page:
     * [x] add [`mkdocs-git-revision-date-localized-plugin`](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
