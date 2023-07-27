@@ -27,16 +27,20 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 -#TODO---------------------[START]--- short action plan
 
 * tbd... use Jinja data loaded in Markdown to show different info ref any learning item - following things could help:
-   * use JS inside Markdown file (if ok, retain as separated file in SCTRATH area to replicate in `RENpo`)
-   * just use as simple Jinja variables adn multiply it with constructs like `{% for ... %}`
-* tbd... get JSON article data and load it as Jinja info that can be used in Markdown files
+   * [ ] load `JSON` got in `230727piu_c` as Jinja info that can be used in Markdown files
+   * [ ] use JS inside Markdown file (if ok, retain as separated file in SCRATCH area to replicate in `RENpo`)
+   * [ ] just use as simple Jinja variables and multiply it with constructs like `{% for ... %}`
+
 * tbd... `about.md` page - section for who we are, project, team? and REN-TLP product license
+
 * tbd... continue "Learning Catalog" (`learning_catalog.md`) page
 
 -#TODO---------------------[END]--- short action plan
 
+
 * wip...
 
+* 230727piu_c new directory `doc_src/data/` with JSON article data ref _`articles_register.json`_ and _`mb-apm-data/unit_01.json`_
 * 230727piu_b plugin that enables displaying the date of the last git modification of a page:
     * [x] add [`mkdocs-git-revision-date-localized-plugin`](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
     * [x] enable in `mkdocs.yml` section `plugins`: `- git-revision-date-localized`
