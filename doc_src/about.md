@@ -17,6 +17,8 @@ sections for
 
 ## The "Learning @RENware" project
 
+The project is a collection of more l learning materials
+
 -#TODO ...
 
 
