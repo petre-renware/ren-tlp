@@ -17,7 +17,20 @@ sections for
 
 -#TODO ...
 
-## Projrct team
+## Project team
+
+### Development team
+
+* Petre Iordanescu, software engineer `petre.iordanescu@gmail.com`
+
+### Material authors
+
+Here is a list with most frequent (almost permanent) authors. The real list is longer and each author(s) can be found in respective material.
+
+* Petre Iordanescu, `petre.iordanescu@gmail.com`
+
+
+
 
 -#TODO ...
 
