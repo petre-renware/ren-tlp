@@ -8,7 +8,7 @@ nav:
     - Learning catalog: 'learning_catalog.md'
     - About platform: 'about.md'
     - RENware Software Systems: 'http://www.renware.eu'
-    #FIXME_chk_ok_if_only_cource_catalog_? - Full TLP Manual (PDF): 'pdfs/print_page.html/print_page.pdf'
+    #- Full TLP Manual (PDF): 'pdfs/print_page.html/print_page.pdf' #NOTE_no_print_site_in_project
 
 
 
@@ -17,7 +17,7 @@ markdown_extensions:
     - tables
     - pymdownx.details
     - pymdownx.superfences:
-        custom_fences: #NOTE: [petre iordanescu]: is very important to respect syntax ref `-` character at beginning of items (otherwise not right JSON result !)
+        custom_fences: #NOTE: is very important to respect syntax ref `-` character at beginning of items (otherwise not right JSON result !)
             - name: mermaid
               class: mermaid
               format: !!python/name:pymdownx.superfences.fence_code_format
@@ -45,20 +45,21 @@ extra_javascript:
 plugins:
     - search
     - include-markdown
-    # - pdf-export # this version does not render mermaid in PDF docs
-    #FIXME_check_if_needed - print-site: #NOTE: put print-site to the bottom of the plugins that may might alter your site navigation (affect order of sections in generated HTML)
-        #FIXME_check_if_needed add_to_navigation: true
-        #FIXME_check_if_needed print_page_title: 'Full ArtK Manual'
-        #FIXME_check_if_needed add_full_urls: true
-        #FIXME_check_if_needed add_table_of_contents: true
+    #- pdf-export #NOTE this version does not render mermaid in PDF docs
+    #- print-site: # NO PRINT SITE in `project` #NOTE_no_print_site_in_project
+        #add_to_navigation: true #NOTE_no_print_site_in_project
+        #print_page_title: 'Full ArtK Manual' #NOTE_no_print_site_in_project
+        #add_full_urls: true #NOTE_no_print_site_in_project
+        #add_table_of_contents: true #NOTE_no_print_site_in_project
     - pdf-with-js:
         enable: true
+    - git-revision-date-localized #NOTE plugin that enables displaying the date of the last git modification of a page - see `https://github.com/timvink/mkdocs-git-revision-date-localized-plugin`
 
 
 
 #NOTE provide material theme
 theme:
-    logo: pictures/REN_TLP_logo.png ##FIXME set right learning @ renware logo
+    logo: pictures/REN_TLP_logo.png
     name: material
     features:
         - navigation.tabs #NOTE level 2 on left navigation side bar, level 1 on top navigation bar
