@@ -25,14 +25,10 @@ sections for
 
 ### Material authors
 
-Here is a list with most frequent (almost permanent) authors. The real list is longer and each author(s) can be found in respective material.
-
-* Petre Iordanescu, `petre.iordanescu@gmail.com`
+Each author(s) can be found in respective material (under real or adopted names).
 
 
 
-
--#TODO ...
 
 ## License
 
