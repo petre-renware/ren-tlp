@@ -17,9 +17,16 @@ sections for
 
 ## The "Learning @RENware" project
 
-The project is a collection of more l learning materials
+The project is a collection of more learning materials written as knowledge share, briefs used in other trainings and courses and so on. It is intended to be a knowledge share place for anyone who love and want to learn.
 
--#TODO ...
+Facts:
+
+* p/n: `#FIXME`
+* project code-name: `ren_tlp`
+* project name: `Learning @ RENware`
+* start: 2021
+
+-#TODO ... ALSO UPDATE README file
 
 
 
