@@ -26,6 +26,8 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 -#TODO---------------------[START]--- short action plan
 
+* -#NOTE_IMP: to get a JSON file and just as file use `curl -O <numele_fisierui_generat> <URL_sursa>`
+
 * tbd... use Jinja data loaded in Markdown to show different info ref any learning item - following things could help:
    * [ ] load `JSON` got in `230727piu_c` as Jinja info that can be used in Markdown files
    * [ ] use JS inside Markdown file (if ok, retain as separated file in SCRATCH area to replicate in `RENpo`)
