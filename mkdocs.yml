@@ -45,6 +45,7 @@ extra_javascript:
 plugins:
     - search
     - include-markdown
+    - markdown-exec #NOTE allow for python & bash execution inside markdown (see `https://pypi.org/project/markdown-exec/`)
     #- pdf-export #NOTE this version does not render mermaid in PDF docs
     #- print-site: # NO PRINT SITE in `project` #NOTE_no_print_site_in_project
         #add_to_navigation: true #NOTE_no_print_site_in_project

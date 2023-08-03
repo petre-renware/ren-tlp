@@ -27,6 +27,11 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 -#TODO---------------------[START]--- short action plan
 
 * -#NOTE_IMP: to get a JSON file and just as file use `curl -O <numele_fisierui_generat> <URL_sursa>`
+* tbd... -#NOTE there is a plugin to load / read JSON files - CORRELATE WITH NEXT because you get GET it by executing request !!!
+* tbd... -#NOTE_NEW execution the python code in browser with (ref `https://pypi.org/project/markdown-exec/`):
+```python exec="on"
+print("Hello Petre!")
+```
 
 * tbd... use Jinja data loaded in Markdown to show different info ref any learning item - following things could help:
    * [ ] load `JSON` got in `230727piu_c` as Jinja info that can be used in Markdown files
@@ -37,7 +42,10 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 -#TODO---------------------[END]--- short action plan
 
-* wip... last used 230727piu_f
+
+* wip...
+* 230803piu_a installed `markdown-exec[ansi]` for python & bash execution inside markdown file (ref `https://pypi.org/project/markdown-exec/`)
+
 
 
 
