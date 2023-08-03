@@ -21,14 +21,12 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 ## 2.0 ArtK new re-branded portal @ `learning.renware.eu`
 
 
-### ___#FIXME_wip___ 2.0.2 Articles Catalog
+### -#TODO---------------------[START]--- short action plan
 
+* -#FIXME DROP ME... see python exec... to get a JSON file and just as file use `curl -O <numele_fisierui_generat> <URL_sursa>`
+* -#FIXME DROP ME... see python exec... -#NOTE there is a plugin to load / read JSON files - CORRELATE WITH NEXT because you get GET it by executing request !!!
 
--#TODO---------------------[START]--- short action plan
-
-* -#NOTE_IMP: to get a JSON file and just as file use `curl -O <numele_fisierui_generat> <URL_sursa>`
-* tbd... -#NOTE there is a plugin to load / read JSON files - CORRELATE WITH NEXT because you get GET it by executing request !!!
-* tbd... -#NOTE_NEW execution the python code in browser with (ref `https://pypi.org/project/markdown-exec/`):
+* -#NOTE_NEW execution the python code in browser with (ref `https://pypi.org/project/markdown-exec/`):
 ```python exec="on"
 print("Hello Petre!")
 ```
@@ -42,6 +40,13 @@ print("Hello Petre!")
 
 -#TODO---------------------[END]--- short action plan
 
+
+
+
+
+### 2.0.2 Articles Catalog (#FIXME_wip... yymmdd)
+
+* tbd... make a blog style for articles or take a look @ `help.sap.com` in their learning & articles section
 
 * wip...
 * 230803piu_a installed `markdown-exec[ansi]` for python & bash execution inside markdown file (ref `https://pypi.org/project/markdown-exec/`)
